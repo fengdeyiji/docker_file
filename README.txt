@@ -1,0 +1,1 @@
+docker run -it --rm --mount type=bind,source=/C/Users/tengx/Desktop/src,target=/usr/share/src debian bash
