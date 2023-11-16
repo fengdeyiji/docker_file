@@ -7,6 +7,10 @@ docker build -t dev:v1 . #制作docker
 ```
 # 运行开发环境
 ```shell
-docker run -d --mount type=bind,source=/Users/txw/Desktop/src,target=/usr/share/src -p 127.0.0.1:5000:22 dev:v1 #后台运行docker
+docker run -d --mount type=bind,source=/Users/txw/Desktop/src,target=/usr/share/src -p 5000:22 dev:v1 #后台运行docker
+```
+# 登录环境
+```shell
+ssh root@127.0.0.1 -p 5000
 ```
 happy coding then！
