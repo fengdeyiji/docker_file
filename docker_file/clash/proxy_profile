@@ -1,0 +1,14 @@
+#!/bin/bash
+
+export NO_PROXY="localhost,127.0.0.1"
+export ALL_PROXY="socks5://127.0.0.1:1080"
+export HTTP_PROXY="http://127.0.0.1:8080"
+export HTTPS_PROXY="http://127.0.0.1:8080"
+
+curl google.com -m 3 > /dev/null 2>&1
+
+if [ $? = 0 ]; then
+  echo -e "\033[32mProxy Working Fine. Happy Coding.\033[0m"
+else
+  echo -e "\033[31mProxy May Have Failed. Please Check.\033[0m"
+fi

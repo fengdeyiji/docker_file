@@ -17,7 +17,9 @@ generate_config() {
 if [ $# -ne 0 ] && [ "$1" == "boot" ]; then
   generate_config ./clash/ ${SUBSCRIBE}
 else
-  ps -ef | grep 'clash' | grep -v 'grep' | awk '{print $2}' | xargs kill -9
+  if pgrep -x "clash" > /dev/null; then
+    ps -ef | grep 'clash' | grep -v 'grep' | awk '{print $2}' | xargs kill -9
+  fi
   generate_config /etc/clash/ ${SUBSCRIBE}
   /usr/local/bin/clash -d /etc/clash/ > /dev/null 2>&1 &
 fi
