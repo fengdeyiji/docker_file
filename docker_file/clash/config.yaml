@@ -56,7 +56,6 @@ proxies:
   - {name: 🇯🇵 日本 06丨3x JP, server: console.pitv.win, port: 13023, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇯🇵 日本 07丨3x JP, server: console.pitv.win, port: 13020, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇯🇵 日本 08丨3x JP, server: console.pitv.win, port: 13230, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇯🇵 日本 09丨3x JP, server: console.pitv.win, port: 13235, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇯🇵 日本家宽 01丨3x JP, server: console.pitv.win, port: 13101, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇯🇵 日本家宽 02丨3x JP, server: console.pitv.win, port: 13221, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇯🇵 日本家宽 03丨3x JP, server: console.pitv.win, port: 13240, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
@@ -67,6 +66,7 @@ proxies:
   - {name: 🇰🇷 韩国 02丨1x KR, server: console.pitv.win, port: 12800, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇰🇷 韩国家宽 01丨3x KR, server: console.pitv.win, port: 50015, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇰🇷 韩国家宽 02丨3x KR, server: console.pitv.win, port: 50016, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇰🇷 韩国家宽 03丨3x KR, server: console.pitv.win, port: 50017, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 不丹丨3x BT, server: maketion.51ideal.cyou, port: 13142, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 文莱丨5x BN, server: app-zhihu.zhihu.win, port: 20040, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇰🇵 朝鲜丨3x KP, server: console.pitv.win, port: 13222, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
@@ -176,6 +176,7 @@ proxies:
   - {name: 🇲🇰 北马其顿丨2x MK, server: maketion.51ideal.cyou, port: 12645, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇷🇸 塞尔维亚丨2x RS, server: maketion.51ideal.cyou, port: 12647, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇨🇾 塞浦路斯丨1x CY, server: maketion.51ideal.cyou, port: 12654, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇱🇻 拉脱维亚丨1x LV, server: maketion.51ideal.cyou, port: 12649, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇲🇩 摩尔多瓦丨2x MD, server: maketion.51ideal.cyou, port: 12651, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇸🇰 斯洛伐克丨1x SK, server: maketion.51ideal.cyou, port: 12650, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇪🇪 爱沙尼亚丨1x EE, server: maketion.51ideal.cyou, port: 12635, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
@@ -214,6 +215,8 @@ proxies:
   - {name: 🇺🇸 美国-家宽 03丨5x US, server: console.pitv.win, port: 13228, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国-家宽 04丨5x US, server: console.pitv.win, port: 13213, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国-家宽 05丨5x US, server: console.pitv.win, port: 13244, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-蜂窝网络 01丨20x US, server: console.pitv.win, port: 13248, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-蜂窝网络 02丨20x US, server: console.pitv.win, port: 13249, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国-谷歌无线网络丨3x US, server: console.pitv.win, port: 13226, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国-星链卫星网络丨20x US, server: console.pitv.win, port: 13232, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇨🇦 加拿大-温哥华丨2x CA, server: console.pitv.win, port: 13001, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
@@ -334,7 +337,6 @@ proxy-groups:
       - 🇯🇵 日本 06丨3x JP
       - 🇯🇵 日本 07丨3x JP
       - 🇯🇵 日本 08丨3x JP
-      - 🇯🇵 日本 09丨3x JP
       - 🇯🇵 日本家宽 01丨3x JP
       - 🇯🇵 日本家宽 02丨3x JP
       - 🇯🇵 日本家宽 03丨3x JP
@@ -345,6 +347,7 @@ proxy-groups:
       - 🇰🇷 韩国 02丨1x KR
       - 🇰🇷 韩国家宽 01丨3x KR
       - 🇰🇷 韩国家宽 02丨3x KR
+      - 🇰🇷 韩国家宽 03丨3x KR
       - 不丹丨3x BT
       - 文莱丨5x BN
       - 🇰🇵 朝鲜丨3x KP
@@ -454,6 +457,7 @@ proxy-groups:
       - 🇲🇰 北马其顿丨2x MK
       - 🇷🇸 塞尔维亚丨2x RS
       - 🇨🇾 塞浦路斯丨1x CY
+      - 🇱🇻 拉脱维亚丨1x LV
       - 🇲🇩 摩尔多瓦丨2x MD
       - 🇸🇰 斯洛伐克丨1x SK
       - 🇪🇪 爱沙尼亚丨1x EE
@@ -492,6 +496,8 @@ proxy-groups:
       - 🇺🇸 美国-家宽 03丨5x US
       - 🇺🇸 美国-家宽 04丨5x US
       - 🇺🇸 美国-家宽 05丨5x US
+      - 🇺🇸 美国-蜂窝网络 01丨20x US
+      - 🇺🇸 美国-蜂窝网络 02丨20x US
       - 🇺🇸 美国-谷歌无线网络丨3x US
       - 🇺🇸 美国-星链卫星网络丨20x US
       - 🇨🇦 加拿大-温哥华丨2x CA
@@ -601,7 +607,6 @@ proxy-groups:
       - 🇯🇵 日本 06丨3x JP
       - 🇯🇵 日本 07丨3x JP
       - 🇯🇵 日本 08丨3x JP
-      - 🇯🇵 日本 09丨3x JP
       - 🇯🇵 日本家宽 01丨3x JP
       - 🇯🇵 日本家宽 02丨3x JP
       - 🇯🇵 日本家宽 03丨3x JP
@@ -612,6 +617,7 @@ proxy-groups:
       - 🇰🇷 韩国 02丨1x KR
       - 🇰🇷 韩国家宽 01丨3x KR
       - 🇰🇷 韩国家宽 02丨3x KR
+      - 🇰🇷 韩国家宽 03丨3x KR
       - 不丹丨3x BT
       - 文莱丨5x BN
       - 🇰🇵 朝鲜丨3x KP
@@ -721,6 +727,7 @@ proxy-groups:
       - 🇲🇰 北马其顿丨2x MK
       - 🇷🇸 塞尔维亚丨2x RS
       - 🇨🇾 塞浦路斯丨1x CY
+      - 🇱🇻 拉脱维亚丨1x LV
       - 🇲🇩 摩尔多瓦丨2x MD
       - 🇸🇰 斯洛伐克丨1x SK
       - 🇪🇪 爱沙尼亚丨1x EE
@@ -759,6 +766,8 @@ proxy-groups:
       - 🇺🇸 美国-家宽 03丨5x US
       - 🇺🇸 美国-家宽 04丨5x US
       - 🇺🇸 美国-家宽 05丨5x US
+      - 🇺🇸 美国-蜂窝网络 01丨20x US
+      - 🇺🇸 美国-蜂窝网络 02丨20x US
       - 🇺🇸 美国-谷歌无线网络丨3x US
       - 🇺🇸 美国-星链卫星网络丨20x US
       - 🇨🇦 加拿大-温哥华丨2x CA
@@ -1059,7 +1068,6 @@ proxy-groups:
       - 🇯🇵 日本 06丨3x JP
       - 🇯🇵 日本 07丨3x JP
       - 🇯🇵 日本 08丨3x JP
-      - 🇯🇵 日本 09丨3x JP
       - 🇯🇵 日本家宽 01丨3x JP
       - 🇯🇵 日本家宽 02丨3x JP
       - 🇯🇵 日本家宽 03丨3x JP
@@ -1078,6 +1086,7 @@ proxy-groups:
       - 🇰🇷 韩国 02丨1x KR
       - 🇰🇷 韩国家宽 01丨3x KR
       - 🇰🇷 韩国家宽 02丨3x KR
+      - 🇰🇷 韩国家宽 03丨3x KR
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -1108,6 +1117,8 @@ proxy-groups:
       - 🇺🇸 美国-家宽 03丨5x US
       - 🇺🇸 美国-家宽 04丨5x US
       - 🇺🇸 美国-家宽 05丨5x US
+      - 🇺🇸 美国-蜂窝网络 01丨20x US
+      - 🇺🇸 美国-蜂窝网络 02丨20x US
       - 🇺🇸 美国-谷歌无线网络丨3x US
       - 🇺🇸 美国-星链卫星网络丨20x US
   - name: 🌍 其他地区
@@ -1240,6 +1251,7 @@ proxy-groups:
       - 🇲🇰 北马其顿丨2x MK
       - 🇷🇸 塞尔维亚丨2x RS
       - 🇨🇾 塞浦路斯丨1x CY
+      - 🇱🇻 拉脱维亚丨1x LV
       - 🇲🇩 摩尔多瓦丨2x MD
       - 🇸🇰 斯洛伐克丨1x SK
       - 🇪🇪 爱沙尼亚丨1x EE
