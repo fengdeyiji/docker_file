@@ -1,5 +1,6 @@
 #!/bin/bash
 
+export PATH=/usr/local/llvm/bin:$PATH
 export NO_PROXY="localhost,127.0.0.1"
 export ALL_PROXY="socks5://127.0.0.1:1080"
 export HTTP_PROXY="http://127.0.0.1:8080"

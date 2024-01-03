@@ -26,6 +26,7 @@ proxies:
   - {name: 🇨🇳 台湾家宽 04丨3x TW, server: app-zhihu.zhihu.win, port: 20036, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇨🇳 台湾家宽 05丨3x TW, server: app-zhihu.zhihu.win, port: 20037, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇨🇳 台湾家宽 06丨3x TW, server: app-zhihu.zhihu.win, port: 20038, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇨🇳 台湾-蜂窝网络丨20x TW, server: app-zhihu.zhihu.win, port: 20050, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇸🇬 新加坡 01丨1x SG, server: app-zhihu.zhihu.win, port: 12000, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇸🇬 新加坡 02丨1x SG, server: app-zhihu.zhihu.win, port: 12002, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇸🇬 新加坡 03丨1x SG, server: app-zhihu.zhihu.win, port: 12003, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
@@ -40,10 +41,10 @@ proxies:
   - {name: 🇲🇾 马来西亚家宽 04丨1x MY, server: app-zhihu.zhihu.win, port: 12321, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇲🇾 马来西亚家宽 05丨3x MY, server: app-zhihu.zhihu.win, port: 20041, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇲🇾 马来西亚家宽 06丨5x MY, server: app-zhihu.zhihu.win, port: 20042, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 马尔代夫丨3x MV, server: myyjs.51ideal.cyou, port: 13135, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 马尔代夫丨3x MV, server: 58tongcheng.51ideal.cyou, port: 13135, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇰🇭 柬埔寨丨3x KH, server: app-zhihu.zhihu.win, port: 12701, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇹🇭 泰国丨2x TH, server: app-zhihu.zhihu.win, port: 12313, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇹🇭 泰国蜂窝网络丨20x TH, server: app-zhihu.zhihu.win, port: 20047, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇹🇭 泰国-蜂窝网络丨20x TH, server: app-zhihu.zhihu.win, port: 20047, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 缅甸丨10x MM, server: app-zhihu.zhihu.win, port: 13137, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 老挝丨5x LA, server: app-zhihu.zhihu.win, port: 13138, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇻🇳 越南丨1x VN, server: app-zhihu.zhihu.win, port: 12316, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
@@ -56,6 +57,7 @@ proxies:
   - {name: 🇯🇵 日本 06丨3x JP, server: console.pitv.win, port: 13023, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇯🇵 日本 07丨3x JP, server: console.pitv.win, port: 13020, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇯🇵 日本 08丨3x JP, server: console.pitv.win, port: 13230, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 09丨3x JP, server: console.pitv.win, port: 13235, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇯🇵 日本家宽 01丨3x JP, server: console.pitv.win, port: 13101, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇯🇵 日本家宽 02丨3x JP, server: console.pitv.win, port: 13221, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇯🇵 日本家宽 03丨3x JP, server: console.pitv.win, port: 13240, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
@@ -67,54 +69,53 @@ proxies:
   - {name: 🇰🇷 韩国家宽 01丨3x KR, server: console.pitv.win, port: 50015, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇰🇷 韩国家宽 02丨3x KR, server: console.pitv.win, port: 50016, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇰🇷 韩国家宽 03丨3x KR, server: console.pitv.win, port: 50017, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 不丹丨3x BT, server: myyjs.51ideal.cyou, port: 13142, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 不丹丨3x BT, server: 58tongcheng.51ideal.cyou, port: 13142, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 文莱丨5x BN, server: app-zhihu.zhihu.win, port: 20040, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇰🇵 朝鲜丨3x KP, server: console.pitv.win, port: 13222, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 关岛丨3x GU, server: console.pitv.win, port: 13229, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 斐济丨3x FJ, server: console.pitv.win, port: 13224, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇵🇭 菲律宾-克拉克丨2x PH, server: app-zhihu.zhihu.win, port: 12406, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇵🇭 菲律宾-马尼拉丨2x PH, server: app-zhihu.zhihu.win, port: 12020, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇵🇭 菲律宾-帕西格丨2x PH, server: app-zhihu.zhihu.win, port: 13124, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇵🇭 菲律宾 01丨2x PH, server: app-zhihu.zhihu.win, port: 12406, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇵🇭 菲律宾 02丨2x PH, server: app-zhihu.zhihu.win, port: 12020, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇮🇩 印尼-棉兰丨1x ID, server: app-zhihu.zhihu.win, port: 12300, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇮🇩 印尼-雅加达丨1x ID, server: app-zhihu.zhihu.win, port: 12301, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇮🇳 印度 01丨1x IN, server: app-zhihu.zhihu.win, port: 12302, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇮🇳 印度 02丨1x IN, server: app-zhihu.zhihu.win, port: 13106, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇲🇳 蒙古丨1x MN, server: app-zhihu.zhihu.win, port: 12328, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇯🇴 约旦丨2x JO, server: myyjs.51ideal.cyou, port: 12708, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇮🇷 伊朗丨5x IR, server: myyjs.51ideal.cyou, port: 12707, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 巴林丨10x BH, server: myyjs.51ideal.cyou, port: 13108, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇯🇴 约旦丨2x JO, server: 58tongcheng.51ideal.cyou, port: 12708, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇮🇷 伊朗丨5x IR, server: 58tongcheng.51ideal.cyou, port: 12707, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 巴林丨10x BH, server: 58tongcheng.51ideal.cyou, port: 13108, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 阿曼丨3x OM, server: app-zhihu.zhihu.win, port: 13135, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇮🇱 以色列-海法丨1x IL, server: myyjs.51ideal.cyou, port: 12600, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇮🇱 以色列-罗什艾因丨1x IL, server: myyjs.51ideal.cyou, port: 12732, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇮🇱 以色列-特拉维夫丨1x IL, server: myyjs.51ideal.cyou, port: 12733, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇮🇱 以色列-佩塔提克瓦丨1x IL, server: myyjs.51ideal.cyou, port: 12735, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇮🇱 以色列家宽丨5x IL, server: myyjs.51ideal.cyou, port: 13147, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 巴勒斯坦丨3x PS, server: myyjs.51ideal.cyou, port: 13158, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇹🇷 土耳其 01丨1x TR, server: myyjs.51ideal.cyou, port: 12603, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇹🇷 土耳其 02丨1x TR, server: myyjs.51ideal.cyou, port: 12655, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇹🇷 土耳其家宽丨5x TR, server: myyjs.51ideal.cyou, port: 13146, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇮🇱 以色列-海法丨1x IL, server: 58tongcheng.51ideal.cyou, port: 12600, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇮🇱 以色列-罗什艾因丨1x IL, server: 58tongcheng.51ideal.cyou, port: 12732, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇮🇱 以色列-特拉维夫丨1x IL, server: 58tongcheng.51ideal.cyou, port: 12733, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇮🇱 以色列-佩塔提克瓦丨1x IL, server: 58tongcheng.51ideal.cyou, port: 12735, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇮🇱 以色列家宽丨5x IL, server: 58tongcheng.51ideal.cyou, port: 13147, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 巴勒斯坦丨3x PS, server: 58tongcheng.51ideal.cyou, port: 13158, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇹🇷 土耳其 01丨1x TR, server: 58tongcheng.51ideal.cyou, port: 12603, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇹🇷 土耳其 02丨1x TR, server: 58tongcheng.51ideal.cyou, port: 12655, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇹🇷 土耳其家宽丨5x TR, server: 58tongcheng.51ideal.cyou, port: 13146, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 尼泊尔丨1x NP, server: app-zhihu.zhihu.win, port: 12720, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 东帝汶丨3x TL, server: app-zhihu.zhihu.win, port: 20030, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 孟加拉丨2x BD, server: app-zhihu.zhihu.win, port: 12724, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 黎巴嫩丨5x LB, server: myyjs.51ideal.cyou, port: 13123, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 伊拉克丨5x IQ, server: myyjs.51ideal.cyou, port: 13124, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 叙利亚丨5x SY, server: myyjs.51ideal.cyou, port: 13126, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 阿富汗丨3x AF, server: myyjs.51ideal.cyou, port: 13144, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 黎巴嫩丨5x LB, server: 58tongcheng.51ideal.cyou, port: 13123, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 伊拉克丨5x IQ, server: 58tongcheng.51ideal.cyou, port: 13124, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 叙利亚丨5x SY, server: 58tongcheng.51ideal.cyou, port: 13126, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 阿富汗丨3x AF, server: 58tongcheng.51ideal.cyou, port: 13144, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 卡塔尔丨10x QA, server: app-zhihu.zhihu.win, port: 13181, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇦🇪 阿联酋 01丨2x AE, server: app-zhihu.zhihu.win, port: 12400, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇦🇪 阿联酋 02丨2x AE, server: app-zhihu.zhihu.win, port: 13110, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇦🇪 阿联酋 03丨2x AE, server: app-zhihu.zhihu.win, port: 13100, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇦🇿 阿塞拜疆丨2x AZ, server: myyjs.51ideal.cyou, port: 12606, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇺🇸 亚美尼亚丨2x AM, server: myyjs.51ideal.cyou, port: 12737, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇬🇪 格鲁吉亚丨1x GE, server: myyjs.51ideal.cyou, port: 12644, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇦🇿 阿塞拜疆丨2x AZ, server: 58tongcheng.51ideal.cyou, port: 12606, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇺🇸 亚美尼亚丨2x AM, server: 58tongcheng.51ideal.cyou, port: 12737, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇬🇪 格鲁吉亚丨1x GE, server: 58tongcheng.51ideal.cyou, port: 12644, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇵🇰 巴基斯坦丨5x PK, server: app-zhihu.zhihu.win, port: 12605, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 斯里兰卡丨10x LK, server: app-zhihu.zhihu.win, port: 20043, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇸🇦 沙特阿拉伯 01丨3x SA, server: app-zhihu.zhihu.win, port: 13032, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇸🇦 沙特阿拉伯 02丨5x SA, server: app-zhihu.zhihu.win, port: 20044, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇸🇦 沙特阿拉伯 03丨3x SA, server: myyjs.51ideal.cyou, port: 13160, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇰🇿 哈萨克斯坦 01丨1x KZ, server: myyjs.51ideal.cyou, port: 12602, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇸🇦 沙特阿拉伯 03丨3x SA, server: 58tongcheng.51ideal.cyou, port: 13160, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇰🇿 哈萨克斯坦 01丨1x KZ, server: 58tongcheng.51ideal.cyou, port: 12602, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇰🇿 哈萨克斯坦 02丨3x KZ, server: app-zhihu.zhihu.win, port: 20045, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇰🇬 吉尔吉斯斯坦丨1x KG, server: myyjs.51ideal.cyou, port: 13120, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇰🇬 吉尔吉斯斯坦丨1x KG, server: 58tongcheng.51ideal.cyou, port: 13120, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 乌兹别克斯坦丨1x UZ, server: app-zhihu.zhihu.win, port: 20025, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇦🇺 澳大利亚-悉尼丨2x AU, server: app-zhihu.zhihu.win, port: 12324, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇦🇺 澳大利亚-珀斯丨2x AU, server: app-zhihu.zhihu.win, port: 12402, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
@@ -124,74 +125,73 @@ proxies:
   - {name: 🇦🇺 澳大利亚家宽丨20x AU, server: app-zhihu.zhihu.win, port: 20049, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇳🇿 新西兰丨2x NZ, server: app-zhihu.zhihu.win, port: 12326, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇳🇿 新西兰家宽丨3x NZ, server: app-zhihu.zhihu.win, port: 20023, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇫🇷 法国 01丨1x FR, server: myyjs.51ideal.cyou, port: 12621, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇫🇷 法国 02丨1x FR, server: myyjs.51ideal.cyou, port: 12740, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇫🇷 法国家宽丨5x FR, server: myyjs.51ideal.cyou, port: 13151, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇫🇷 法国-蜂窝网络丨20x FR, server: myyjs.51ideal.cyou, port: 13154, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇬🇧 英国 01丨1x GB, server: myyjs.51ideal.cyou, port: 12710, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇬🇧 英国 02丨1x GB, server: myyjs.51ideal.cyou, port: 12267, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇬🇧 英国 03丨1x GB, server: myyjs.51ideal.cyou, port: 12736, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇬🇧 英国 04丨1x GB, server: myyjs.51ideal.cyou, port: 12470, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇬🇧 英国 05丨1x GB, server: myyjs.51ideal.cyou, port: 12266, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇬🇧 英国家宽 01丨3x GB, server: myyjs.51ideal.cyou, port: 12640, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇬🇧 英国家宽 02丨3x GB, server: myyjs.51ideal.cyou, port: 13140, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇬🇧 英国家宽 04丨10x GB, server: myyjs.51ideal.cyou, port: 13152, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇬🇧 英国-蜂窝网络丨20x GB, server: myyjs.51ideal.cyou, port: 13155, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇮🇲 马恩岛丨2x IM, server: myyjs.51ideal.cyou, port: 12623, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇩🇪 德国 01丨1x DE, server: myyjs.51ideal.cyou, port: 12619, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇩🇪 德国 02丨1x DE, server: myyjs.51ideal.cyou, port: 12620, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇩🇪 德国-蜂窝网络丨20x DE, server: myyjs.51ideal.cyou, port: 13153, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇩🇪 德国-谷歌无线网络丨3x DE, server: myyjs.51ideal.cyou, port: 13134, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇩🇰 丹麦丨1x DK, server: myyjs.51ideal.cyou, port: 12608, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇳🇴 挪威丨1x NO, server: myyjs.51ideal.cyou, port: 12610, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇸🇪 瑞典丨1x SE, server: myyjs.51ideal.cyou, port: 12611, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇫🇮 芬兰丨2x FI, server: myyjs.51ideal.cyou, port: 12609, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇮🇸 冰岛丨2x IS, server: myyjs.51ideal.cyou, port: 12607, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇮🇸 冰岛-谷歌无线网络丨3x IS, server: myyjs.51ideal.cyou, port: 13132, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇨🇭 瑞士丨2x CH, server: myyjs.51ideal.cyou, port: 12630, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇨🇿 捷克丨1x CZ, server: myyjs.51ideal.cyou, port: 12613, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇬🇷 希腊丨2x GR, server: myyjs.51ideal.cyou, port: 12615, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇳🇱 荷兰丨1x NL, server: myyjs.51ideal.cyou, port: 12622, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇳🇱 荷兰-蜂窝网络丨20x NL, server: myyjs.51ideal.cyou, port: 13156, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇵🇱 波兰丨1x PL, server: myyjs.51ideal.cyou, port: 12261, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 黑山丨3x ME, server: myyjs.51ideal.cyou, port: 13129, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇷🇺 俄罗斯-莫斯科丨1x RU, server: myyjs.51ideal.cyou, port: 12034, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇷🇺 俄罗斯-叶卡捷琳堡丨1x RU, server: myyjs.51ideal.cyou, port: 13122, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 乌克兰丨2x UA, server: myyjs.51ideal.cyou, port: 12614, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇭🇺 匈牙利丨1x HU, server: myyjs.51ideal.cyou, port: 12631, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇱🇺 卢森堡丨2x LU, server: myyjs.51ideal.cyou, port: 12629, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇦🇹 奥地利丨2x AT, server: myyjs.51ideal.cyou, port: 12628, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇮🇹 意大利丨1x IT, server: myyjs.51ideal.cyou, port: 12616, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇮🇹 意大利家宽丨5x IT, server: myyjs.51ideal.cyou, port: 13149, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 梵蒂冈丨3x VA, server: myyjs.51ideal.cyou, port: 13131, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇧🇪 比利时丨1x BE, server: myyjs.51ideal.cyou, port: 12618, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇮🇪 爱尔兰丨2x IE, server: myyjs.51ideal.cyou, port: 12617, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇱🇹 立陶宛丨1x LT, server: myyjs.51ideal.cyou, port: 12652, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇪🇸 西班牙丨1x ES, server: myyjs.51ideal.cyou, port: 12625, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇵🇹 葡萄牙丨1x PT, server: myyjs.51ideal.cyou, port: 12624, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 安道尔丨3x AD, server: myyjs.51ideal.cyou, port: 12738, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 马耳他丨3x MT, server: myyjs.51ideal.cyou, port: 12743, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 摩纳哥丨3x MC, server: myyjs.51ideal.cyou, port: 13138, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇧🇬 保加利亚丨1x BG, server: myyjs.51ideal.cyou, port: 12634, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇭🇷 克罗地亚丨2x HR, server: myyjs.51ideal.cyou, port: 12646, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇲🇰 北马其顿丨2x MK, server: myyjs.51ideal.cyou, port: 12645, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇷🇸 塞尔维亚丨2x RS, server: myyjs.51ideal.cyou, port: 12647, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇨🇾 塞浦路斯丨1x CY, server: myyjs.51ideal.cyou, port: 12654, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇱🇻 拉脱维亚丨1x LV, server: myyjs.51ideal.cyou, port: 12649, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇲🇩 摩尔多瓦丨2x MD, server: myyjs.51ideal.cyou, port: 12651, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇸🇰 斯洛伐克丨1x SK, server: myyjs.51ideal.cyou, port: 12650, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇪🇪 爱沙尼亚丨1x EE, server: myyjs.51ideal.cyou, port: 12635, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇷🇺 白俄罗斯丨3x BY, server: myyjs.51ideal.cyou, port: 12633, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇷🇴 罗马尼亚丨1x RO, server: myyjs.51ideal.cyou, port: 12641, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇷🇴 罗马尼亚家宽丨5x RO, server: myyjs.51ideal.cyou, port: 13150, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 直布罗陀丨3x GI, server: myyjs.51ideal.cyou, port: 13127, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 圣马力诺丨3x SM, server: myyjs.51ideal.cyou, port: 13130, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 法罗群岛丨3x FO, server: myyjs.51ideal.cyou, port: 13141, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 奥兰群岛丨3x AX, server: myyjs.51ideal.cyou, port: 13143, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇸🇮 斯洛文尼亚丨2x SI, server: myyjs.51ideal.cyou, port: 12653, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇦🇱 阿尔巴尼亚丨1x AL, server: myyjs.51ideal.cyou, port: 12642, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇧🇦 波黑共和国丨2x BA, server: myyjs.51ideal.cyou, port: 12643, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 列支敦士登丨3x LI, server: myyjs.51ideal.cyou, port: 13128, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇫🇷 法国 01丨1x FR, server: 58tongcheng.51ideal.cyou, port: 12621, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇫🇷 法国 02丨1x FR, server: 58tongcheng.51ideal.cyou, port: 12740, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇫🇷 法国家宽丨5x FR, server: 58tongcheng.51ideal.cyou, port: 13151, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇫🇷 法国-蜂窝网络丨20x FR, server: 58tongcheng.51ideal.cyou, port: 13154, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇬🇧 英国 01丨1x GB, server: 58tongcheng.51ideal.cyou, port: 12710, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇬🇧 英国 02丨1x GB, server: 58tongcheng.51ideal.cyou, port: 12267, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇬🇧 英国 03丨1x GB, server: 58tongcheng.51ideal.cyou, port: 12736, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇬🇧 英国 04丨1x GB, server: 58tongcheng.51ideal.cyou, port: 12470, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇬🇧 英国 05丨1x GB, server: 58tongcheng.51ideal.cyou, port: 12266, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇬🇧 英国家宽 01丨3x GB, server: 58tongcheng.51ideal.cyou, port: 12640, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇬🇧 英国家宽 02丨3x GB, server: 58tongcheng.51ideal.cyou, port: 13140, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇬🇧 英国家宽 03丨5x GB, server: 58tongcheng.51ideal.cyou, port: 13148, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇬🇧 英国-蜂窝网络丨20x GB, server: 58tongcheng.51ideal.cyou, port: 13155, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇮🇲 马恩岛丨2x IM, server: 58tongcheng.51ideal.cyou, port: 12623, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇩🇪 德国 01丨1x DE, server: 58tongcheng.51ideal.cyou, port: 12619, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇩🇪 德国 02丨1x DE, server: 58tongcheng.51ideal.cyou, port: 12620, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇩🇪 德国-蜂窝网络丨20x DE, server: 58tongcheng.51ideal.cyou, port: 13153, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇩🇪 德国-谷歌无线网络丨3x DE, server: 58tongcheng.51ideal.cyou, port: 13134, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇩🇰 丹麦丨1x DK, server: 58tongcheng.51ideal.cyou, port: 12608, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇳🇴 挪威丨1x NO, server: 58tongcheng.51ideal.cyou, port: 12610, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇸🇪 瑞典丨1x SE, server: 58tongcheng.51ideal.cyou, port: 12611, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇫🇮 芬兰丨2x FI, server: 58tongcheng.51ideal.cyou, port: 12609, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇮🇸 冰岛丨2x IS, server: 58tongcheng.51ideal.cyou, port: 12607, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇮🇸 冰岛-谷歌无线网络丨3x IS, server: 58tongcheng.51ideal.cyou, port: 13132, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇨🇭 瑞士丨2x CH, server: 58tongcheng.51ideal.cyou, port: 12630, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇨🇿 捷克丨1x CZ, server: 58tongcheng.51ideal.cyou, port: 12613, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇬🇷 希腊丨2x GR, server: 58tongcheng.51ideal.cyou, port: 12615, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇳🇱 荷兰丨1x NL, server: 58tongcheng.51ideal.cyou, port: 12622, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇳🇱 荷兰-蜂窝网络丨20x NL, server: 58tongcheng.51ideal.cyou, port: 13156, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇵🇱 波兰丨1x PL, server: 58tongcheng.51ideal.cyou, port: 12261, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 黑山丨3x ME, server: 58tongcheng.51ideal.cyou, port: 13129, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇷🇺 俄罗斯-莫斯科丨1x RU, server: 58tongcheng.51ideal.cyou, port: 12034, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇷🇺 俄罗斯-叶卡捷琳堡丨1x RU, server: 58tongcheng.51ideal.cyou, port: 13122, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 乌克兰丨2x UA, server: 58tongcheng.51ideal.cyou, port: 12614, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇭🇺 匈牙利丨1x HU, server: 58tongcheng.51ideal.cyou, port: 12631, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇱🇺 卢森堡丨2x LU, server: 58tongcheng.51ideal.cyou, port: 12629, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇦🇹 奥地利丨2x AT, server: 58tongcheng.51ideal.cyou, port: 12628, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇮🇹 意大利丨1x IT, server: 58tongcheng.51ideal.cyou, port: 12616, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇮🇹 意大利家宽丨5x IT, server: 58tongcheng.51ideal.cyou, port: 13149, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 梵蒂冈丨3x VA, server: 58tongcheng.51ideal.cyou, port: 13131, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇧🇪 比利时丨1x BE, server: 58tongcheng.51ideal.cyou, port: 12618, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇮🇪 爱尔兰丨2x IE, server: 58tongcheng.51ideal.cyou, port: 12617, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇱🇹 立陶宛丨1x LT, server: 58tongcheng.51ideal.cyou, port: 12652, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇪🇸 西班牙丨1x ES, server: 58tongcheng.51ideal.cyou, port: 12625, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇵🇹 葡萄牙丨1x PT, server: 58tongcheng.51ideal.cyou, port: 12624, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 安道尔丨3x AD, server: 58tongcheng.51ideal.cyou, port: 12738, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 马耳他丨3x MT, server: 58tongcheng.51ideal.cyou, port: 12743, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 摩纳哥丨3x MC, server: 58tongcheng.51ideal.cyou, port: 13138, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇧🇬 保加利亚丨1x BG, server: 58tongcheng.51ideal.cyou, port: 12634, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇭🇷 克罗地亚丨2x HR, server: 58tongcheng.51ideal.cyou, port: 12646, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇲🇰 北马其顿丨2x MK, server: 58tongcheng.51ideal.cyou, port: 12645, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇷🇸 塞尔维亚丨2x RS, server: 58tongcheng.51ideal.cyou, port: 12647, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇨🇾 塞浦路斯丨1x CY, server: 58tongcheng.51ideal.cyou, port: 12654, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇱🇻 拉脱维亚丨1x LV, server: 58tongcheng.51ideal.cyou, port: 12649, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇲🇩 摩尔多瓦丨2x MD, server: 58tongcheng.51ideal.cyou, port: 12651, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇸🇰 斯洛伐克丨1x SK, server: 58tongcheng.51ideal.cyou, port: 12650, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇪🇪 爱沙尼亚丨1x EE, server: 58tongcheng.51ideal.cyou, port: 12635, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇷🇺 白俄罗斯丨3x BY, server: 58tongcheng.51ideal.cyou, port: 12633, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇷🇴 罗马尼亚丨1x RO, server: 58tongcheng.51ideal.cyou, port: 12641, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 直布罗陀丨3x GI, server: 58tongcheng.51ideal.cyou, port: 13127, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 圣马力诺丨3x SM, server: 58tongcheng.51ideal.cyou, port: 13130, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 法罗群岛丨3x FO, server: 58tongcheng.51ideal.cyou, port: 13141, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 奥兰群岛丨3x AX, server: 58tongcheng.51ideal.cyou, port: 13143, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇸🇮 斯洛文尼亚丨2x SI, server: 58tongcheng.51ideal.cyou, port: 12653, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇦🇱 阿尔巴尼亚丨1x AL, server: 58tongcheng.51ideal.cyou, port: 12642, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇧🇦 波黑共和国丨2x BA, server: 58tongcheng.51ideal.cyou, port: 12643, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 列支敦士登丨3x LI, server: 58tongcheng.51ideal.cyou, port: 13128, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 法属留尼汪丨2x RE, server: app-zhihu.zhihu.win, port: 20026, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国-费城丨1x US, server: console.pitv.win, port: 13005, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国-纽约丨1x US, server: console.pitv.win, port: 13006, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
@@ -228,7 +228,7 @@ proxies:
   - {name: 🇲🇽 墨西哥 02丨5x MX, server: console.pitv.win, port: 13243, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇵🇦 巴拿马丨3x PA, server: console.pitv.win, port: 12704, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 百慕大丨3x BM, server: console.pitv.win, port: 13234, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 格陵兰丨3x GL, server: myyjs.51ideal.cyou, port: 13133, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 格陵兰丨3x GL, server: 58tongcheng.51ideal.cyou, port: 13133, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇨🇷 哥斯达黎加丨1x CR, server: console.pitv.win, port: 12719, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 英属维尔京丨3x VG, server: console.pitv.win, port: 13236, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇧🇷 巴西 01丨1x BR, server: console.pitv.win, port: 13103, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
@@ -245,6 +245,7 @@ proxies:
   - {name: 牙买加丨3x JM, server: console.pitv.win, port: 13231, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 苏里南丨3x SR, server: console.pitv.win, port: 13233, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 荷属库拉索丨2x CW, server: console.pitv.win, port: 13115, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 法属圭亚那丨3x GF, server: console.pitv.win, port: 13251, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇨🇴 哥伦比亚 01丨1x CO, server: console.pitv.win, port: 13050, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇨🇴 哥伦比亚 02丨5x CO, server: console.pitv.win, port: 13246, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 厄瓜多尔丨5x EC, server: console.pitv.win, port: 13106, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
@@ -254,21 +255,21 @@ proxies:
   - {name: 开曼群岛丨3x KY, server: console.pitv.win, port: 13225, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 洪都拉斯丨3x HN, server: console.pitv.win, port: 13237, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 尼加拉瓜丨3x NI, server: console.pitv.win, port: 13238, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇪🇬 埃及丨3x EG, server: myyjs.51ideal.cyou, port: 12718, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 加纳丨3x GH, server: myyjs.51ideal.cyou, port: 13136, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇿🇦 南非-开普敦丨1x ZA, server: myyjs.51ideal.cyou, port: 13104, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇿🇦 南非-约翰内斯堡丨1x ZA, server: myyjs.51ideal.cyou, port: 12036, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 摩洛哥家宽丨3x MA, server: myyjs.51ideal.cyou, port: 12731, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇹🇳 突尼斯丨2x TN, server: myyjs.51ideal.cyou, port: 12703, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 利比亚丨2x LY, server: myyjs.51ideal.cyou, port: 12742, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇰🇪 肯尼亚丨1x KE, server: myyjs.51ideal.cyou, port: 12716, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇪🇬 埃及丨3x EG, server: 58tongcheng.51ideal.cyou, port: 12718, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 加纳丨3x GH, server: 58tongcheng.51ideal.cyou, port: 13136, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 多哥丨3x TG, server: 58tongcheng.51ideal.cyou, port: 13137, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇿🇦 南非-开普敦丨1x ZA, server: 58tongcheng.51ideal.cyou, port: 13104, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇿🇦 南非-约翰内斯堡丨1x ZA, server: 58tongcheng.51ideal.cyou, port: 12036, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 摩洛哥家宽丨3x MA, server: 58tongcheng.51ideal.cyou, port: 12731, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇹🇳 突尼斯丨2x TN, server: 58tongcheng.51ideal.cyou, port: 12703, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 利比亚丨2x LY, server: 58tongcheng.51ideal.cyou, port: 12742, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇰🇪 肯尼亚丨1x KE, server: 58tongcheng.51ideal.cyou, port: 12716, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 卢旺达丨2x RW, server: app-zhihu.zhihu.win, port: 13133, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 佛得角丨3x CV, server: myyjs.51ideal.cyou, port: 13139, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 安哥拉丨3x AO, server: myyjs.51ideal.cyou, port: 13145, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇯🇵 尼日利亚 01丨2x NG, server: myyjs.51ideal.cyou, port: 12648, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇯🇵 尼日利亚 02丨3x NG, server: myyjs.51ideal.cyou, port: 13159, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 毛里求斯丨2x MU, server: myyjs.51ideal.cyou, port: 13118, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 阿尔及利亚丨3x DZ, server: myyjs.51ideal.cyou, port: 13157, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 佛得角丨3x CV, server: 58tongcheng.51ideal.cyou, port: 13139, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 安哥拉丨3x AO, server: 58tongcheng.51ideal.cyou, port: 13145, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇯🇵 尼日利亚 01丨2x NG, server: 58tongcheng.51ideal.cyou, port: 12648, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 毛里求斯丨2x MU, server: 58tongcheng.51ideal.cyou, port: 13118, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 阿尔及利亚丨3x DZ, server: 58tongcheng.51ideal.cyou, port: 13157, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 南极丨3x AQ, server: app-zhihu.zhihu.win, port: 20031, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
 proxy-groups:
   - name: 🚀 Nexitally
@@ -308,6 +309,7 @@ proxy-groups:
       - 🇨🇳 台湾家宽 04丨3x TW
       - 🇨🇳 台湾家宽 05丨3x TW
       - 🇨🇳 台湾家宽 06丨3x TW
+      - 🇨🇳 台湾-蜂窝网络丨20x TW
       - 🇸🇬 新加坡 01丨1x SG
       - 🇸🇬 新加坡 02丨1x SG
       - 🇸🇬 新加坡 03丨1x SG
@@ -325,7 +327,7 @@ proxy-groups:
       - 马尔代夫丨3x MV
       - 🇰🇭 柬埔寨丨3x KH
       - 🇹🇭 泰国丨2x TH
-      - 🇹🇭 泰国蜂窝网络丨20x TH
+      - 🇹🇭 泰国-蜂窝网络丨20x TH
       - 缅甸丨10x MM
       - 老挝丨5x LA
       - 🇻🇳 越南丨1x VN
@@ -338,6 +340,7 @@ proxy-groups:
       - 🇯🇵 日本 06丨3x JP
       - 🇯🇵 日本 07丨3x JP
       - 🇯🇵 日本 08丨3x JP
+      - 🇯🇵 日本 09丨3x JP
       - 🇯🇵 日本家宽 01丨3x JP
       - 🇯🇵 日本家宽 02丨3x JP
       - 🇯🇵 日本家宽 03丨3x JP
@@ -354,9 +357,8 @@ proxy-groups:
       - 🇰🇵 朝鲜丨3x KP
       - 关岛丨3x GU
       - 斐济丨3x FJ
-      - 🇵🇭 菲律宾-克拉克丨2x PH
-      - 🇵🇭 菲律宾-马尼拉丨2x PH
-      - 🇵🇭 菲律宾-帕西格丨2x PH
+      - 🇵🇭 菲律宾 01丨2x PH
+      - 🇵🇭 菲律宾 02丨2x PH
       - 🇮🇩 印尼-棉兰丨1x ID
       - 🇮🇩 印尼-雅加达丨1x ID
       - 🇮🇳 印度 01丨1x IN
@@ -417,7 +419,7 @@ proxy-groups:
       - 🇬🇧 英国 05丨1x GB
       - 🇬🇧 英国家宽 01丨3x GB
       - 🇬🇧 英国家宽 02丨3x GB
-      - 🇬🇧 英国家宽 04丨10x GB
+      - 🇬🇧 英国家宽 03丨5x GB
       - 🇬🇧 英国-蜂窝网络丨20x GB
       - 🇮🇲 马恩岛丨2x IM
       - 🇩🇪 德国 01丨1x DE
@@ -465,7 +467,6 @@ proxy-groups:
       - 🇪🇪 爱沙尼亚丨1x EE
       - 🇷🇺 白俄罗斯丨3x BY
       - 🇷🇴 罗马尼亚丨1x RO
-      - 🇷🇴 罗马尼亚家宽丨5x RO
       - 直布罗陀丨3x GI
       - 圣马力诺丨3x SM
       - 法罗群岛丨3x FO
@@ -527,6 +528,7 @@ proxy-groups:
       - 牙买加丨3x JM
       - 苏里南丨3x SR
       - 荷属库拉索丨2x CW
+      - 法属圭亚那丨3x GF
       - 🇨🇴 哥伦比亚 01丨1x CO
       - 🇨🇴 哥伦比亚 02丨5x CO
       - 厄瓜多尔丨5x EC
@@ -538,6 +540,7 @@ proxy-groups:
       - 尼加拉瓜丨3x NI
       - 🇪🇬 埃及丨3x EG
       - 加纳丨3x GH
+      - 多哥丨3x TG
       - 🇿🇦 南非-开普敦丨1x ZA
       - 🇿🇦 南非-约翰内斯堡丨1x ZA
       - 摩洛哥家宽丨3x MA
@@ -548,7 +551,6 @@ proxy-groups:
       - 佛得角丨3x CV
       - 安哥拉丨3x AO
       - 🇯🇵 尼日利亚 01丨2x NG
-      - 🇯🇵 尼日利亚 02丨3x NG
       - 毛里求斯丨2x MU
       - 阿尔及利亚丨3x DZ
       - 南极丨3x AQ
@@ -579,6 +581,7 @@ proxy-groups:
       - 🇨🇳 台湾家宽 04丨3x TW
       - 🇨🇳 台湾家宽 05丨3x TW
       - 🇨🇳 台湾家宽 06丨3x TW
+      - 🇨🇳 台湾-蜂窝网络丨20x TW
       - 🇸🇬 新加坡 01丨1x SG
       - 🇸🇬 新加坡 02丨1x SG
       - 🇸🇬 新加坡 03丨1x SG
@@ -596,7 +599,7 @@ proxy-groups:
       - 马尔代夫丨3x MV
       - 🇰🇭 柬埔寨丨3x KH
       - 🇹🇭 泰国丨2x TH
-      - 🇹🇭 泰国蜂窝网络丨20x TH
+      - 🇹🇭 泰国-蜂窝网络丨20x TH
       - 缅甸丨10x MM
       - 老挝丨5x LA
       - 🇻🇳 越南丨1x VN
@@ -609,6 +612,7 @@ proxy-groups:
       - 🇯🇵 日本 06丨3x JP
       - 🇯🇵 日本 07丨3x JP
       - 🇯🇵 日本 08丨3x JP
+      - 🇯🇵 日本 09丨3x JP
       - 🇯🇵 日本家宽 01丨3x JP
       - 🇯🇵 日本家宽 02丨3x JP
       - 🇯🇵 日本家宽 03丨3x JP
@@ -625,9 +629,8 @@ proxy-groups:
       - 🇰🇵 朝鲜丨3x KP
       - 关岛丨3x GU
       - 斐济丨3x FJ
-      - 🇵🇭 菲律宾-克拉克丨2x PH
-      - 🇵🇭 菲律宾-马尼拉丨2x PH
-      - 🇵🇭 菲律宾-帕西格丨2x PH
+      - 🇵🇭 菲律宾 01丨2x PH
+      - 🇵🇭 菲律宾 02丨2x PH
       - 🇮🇩 印尼-棉兰丨1x ID
       - 🇮🇩 印尼-雅加达丨1x ID
       - 🇮🇳 印度 01丨1x IN
@@ -688,7 +691,7 @@ proxy-groups:
       - 🇬🇧 英国 05丨1x GB
       - 🇬🇧 英国家宽 01丨3x GB
       - 🇬🇧 英国家宽 02丨3x GB
-      - 🇬🇧 英国家宽 04丨10x GB
+      - 🇬🇧 英国家宽 03丨5x GB
       - 🇬🇧 英国-蜂窝网络丨20x GB
       - 🇮🇲 马恩岛丨2x IM
       - 🇩🇪 德国 01丨1x DE
@@ -736,7 +739,6 @@ proxy-groups:
       - 🇪🇪 爱沙尼亚丨1x EE
       - 🇷🇺 白俄罗斯丨3x BY
       - 🇷🇴 罗马尼亚丨1x RO
-      - 🇷🇴 罗马尼亚家宽丨5x RO
       - 直布罗陀丨3x GI
       - 圣马力诺丨3x SM
       - 法罗群岛丨3x FO
@@ -798,6 +800,7 @@ proxy-groups:
       - 牙买加丨3x JM
       - 苏里南丨3x SR
       - 荷属库拉索丨2x CW
+      - 法属圭亚那丨3x GF
       - 🇨🇴 哥伦比亚 01丨1x CO
       - 🇨🇴 哥伦比亚 02丨5x CO
       - 厄瓜多尔丨5x EC
@@ -809,6 +812,7 @@ proxy-groups:
       - 尼加拉瓜丨3x NI
       - 🇪🇬 埃及丨3x EG
       - 加纳丨3x GH
+      - 多哥丨3x TG
       - 🇿🇦 南非-开普敦丨1x ZA
       - 🇿🇦 南非-约翰内斯堡丨1x ZA
       - 摩洛哥家宽丨3x MA
@@ -819,7 +823,6 @@ proxy-groups:
       - 佛得角丨3x CV
       - 安哥拉丨3x AO
       - 🇯🇵 尼日利亚 01丨2x NG
-      - 🇯🇵 尼日利亚 02丨3x NG
       - 毛里求斯丨2x MU
       - 阿尔及利亚丨3x DZ
       - 南极丨3x AQ
@@ -1043,6 +1046,7 @@ proxy-groups:
       - 🇨🇳 台湾家宽 04丨3x TW
       - 🇨🇳 台湾家宽 05丨3x TW
       - 🇨🇳 台湾家宽 06丨3x TW
+      - 🇨🇳 台湾-蜂窝网络丨20x TW
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -1071,6 +1075,7 @@ proxy-groups:
       - 🇯🇵 日本 06丨3x JP
       - 🇯🇵 日本 07丨3x JP
       - 🇯🇵 日本 08丨3x JP
+      - 🇯🇵 日本 09丨3x JP
       - 🇯🇵 日本家宽 01丨3x JP
       - 🇯🇵 日本家宽 02丨3x JP
       - 🇯🇵 日本家宽 03丨3x JP
@@ -1078,7 +1083,6 @@ proxy-groups:
       - 🇯🇵 日本家宽 05丨3x JP
       - 🇯🇵 日本游戏丨2x JP
       - 🇯🇵 尼日利亚 01丨2x NG
-      - 🇯🇵 尼日利亚 02丨3x NG
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -1141,7 +1145,7 @@ proxy-groups:
       - 马尔代夫丨3x MV
       - 🇰🇭 柬埔寨丨3x KH
       - 🇹🇭 泰国丨2x TH
-      - 🇹🇭 泰国蜂窝网络丨20x TH
+      - 🇹🇭 泰国-蜂窝网络丨20x TH
       - 缅甸丨10x MM
       - 老挝丨5x LA
       - 🇻🇳 越南丨1x VN
@@ -1151,9 +1155,8 @@ proxy-groups:
       - 🇰🇵 朝鲜丨3x KP
       - 关岛丨3x GU
       - 斐济丨3x FJ
-      - 🇵🇭 菲律宾-克拉克丨2x PH
-      - 🇵🇭 菲律宾-马尼拉丨2x PH
-      - 🇵🇭 菲律宾-帕西格丨2x PH
+      - 🇵🇭 菲律宾 01丨2x PH
+      - 🇵🇭 菲律宾 02丨2x PH
       - 🇮🇩 印尼-棉兰丨1x ID
       - 🇮🇩 印尼-雅加达丨1x ID
       - 🇮🇳 印度 01丨1x IN
@@ -1213,7 +1216,7 @@ proxy-groups:
       - 🇬🇧 英国 05丨1x GB
       - 🇬🇧 英国家宽 01丨3x GB
       - 🇬🇧 英国家宽 02丨3x GB
-      - 🇬🇧 英国家宽 04丨10x GB
+      - 🇬🇧 英国家宽 03丨5x GB
       - 🇬🇧 英国-蜂窝网络丨20x GB
       - 🇮🇲 马恩岛丨2x IM
       - 🇩🇪 德国 01丨1x DE
@@ -1261,7 +1264,6 @@ proxy-groups:
       - 🇪🇪 爱沙尼亚丨1x EE
       - 🇷🇺 白俄罗斯丨3x BY
       - 🇷🇴 罗马尼亚丨1x RO
-      - 🇷🇴 罗马尼亚家宽丨5x RO
       - 直布罗陀丨3x GI
       - 圣马力诺丨3x SM
       - 法罗群岛丨3x FO
@@ -1296,6 +1298,7 @@ proxy-groups:
       - 牙买加丨3x JM
       - 苏里南丨3x SR
       - 荷属库拉索丨2x CW
+      - 法属圭亚那丨3x GF
       - 🇨🇴 哥伦比亚 01丨1x CO
       - 🇨🇴 哥伦比亚 02丨5x CO
       - 厄瓜多尔丨5x EC
@@ -1307,6 +1310,7 @@ proxy-groups:
       - 尼加拉瓜丨3x NI
       - 🇪🇬 埃及丨3x EG
       - 加纳丨3x GH
+      - 多哥丨3x TG
       - 🇿🇦 南非-开普敦丨1x ZA
       - 🇿🇦 南非-约翰内斯堡丨1x ZA
       - 摩洛哥家宽丨3x MA
@@ -1791,6 +1795,7 @@ rules:
  - DOMAIN-SUFFIX,zhjfad.com,🛑 广告拦截
  - DOMAIN-SUFFIX,zqzxz.com,🛑 广告拦截
  - DOMAIN-SUFFIX,zzsx8.com,🛑 广告拦截
+ - DOMAIN-SUFFIX,wwads.cn,🛑 广告拦截
  - DOMAIN-SUFFIX,acuityplatform.com,🛑 广告拦截
  - DOMAIN-SUFFIX,ad-stir.com,🛑 广告拦截
  - DOMAIN-SUFFIX,ad-survey.com,🛑 广告拦截
@@ -3212,6 +3217,8 @@ rules:
  - DOMAIN-SUFFIX,identrust.com,💬 OpenAi
  - DOMAIN-SUFFIX,intercom.io,💬 OpenAi
  - DOMAIN-SUFFIX,intercomcdn.com,💬 OpenAi
+ - DOMAIN-SUFFIX,oaistatic.com,💬 OpenAi
+ - DOMAIN-SUFFIX,oaiusercontent.com,💬 OpenAi
  - DOMAIN-SUFFIX,openai.com,💬 OpenAi
  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,💬 OpenAi
  - DOMAIN-SUFFIX,sentry.io,💬 OpenAi
@@ -3688,6 +3695,8 @@ rules:
  - DOMAIN-SUFFIX,identrust.com,🌍 国外媒体
  - DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
  - DOMAIN-SUFFIX,intercomcdn.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,oaistatic.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,oaiusercontent.com,🌍 国外媒体
  - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🌍 国外媒体
  - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
@@ -3785,6 +3794,7 @@ rules:
  - DOMAIN-SUFFIX,tumbex.com,🚀 Nexitally
  - DOMAIN-SUFFIX,twdvd.com,🚀 Nexitally
  - DOMAIN-SUFFIX,unsplash.com,🚀 Nexitally
+ - DOMAIN-SUFFIX,buzzsprout.com,🚀 Nexitally
  - DOMAIN-SUFFIX,eu,🚀 Nexitally
  - DOMAIN-SUFFIX,hk,🚀 Nexitally
  - DOMAIN-SUFFIX,jp,🚀 Nexitally
@@ -4237,6 +4247,7 @@ rules:
  - DOMAIN-SUFFIX,backchina.com,🚀 Nexitally
  - DOMAIN-SUFFIX,backpackers.com.tw,🚀 Nexitally
  - DOMAIN-SUFFIX,backtotiananmen.com,🚀 Nexitally
+ - DOMAIN-SUFFIX,bad.news,🚀 Nexitally
  - DOMAIN-SUFFIX,badiucao.com,🚀 Nexitally
  - DOMAIN-SUFFIX,badjojo.com,🚀 Nexitally
  - DOMAIN-SUFFIX,badoo.com,🚀 Nexitally
@@ -6471,6 +6482,7 @@ rules:
  - DOMAIN-SUFFIX,info-graf.fr,🚀 Nexitally
  - DOMAIN-SUFFIX,informer.com,🚀 Nexitally
  - DOMAIN-SUFFIX,initiativesforchina.org,🚀 Nexitally
+ - DOMAIN-SUFFIX,inkbunny.net,🚀 Nexitally
  - DOMAIN-SUFFIX,inkui.com,🚀 Nexitally
  - DOMAIN-SUFFIX,inmediahk.net,🚀 Nexitally
  - DOMAIN-SUFFIX,innermongolia.org,🚀 Nexitally
@@ -6992,6 +7004,7 @@ rules:
  - DOMAIN-SUFFIX,matrix.org,🚀 Nexitally
  - DOMAIN-SUFFIX,matsushimakaede.com,🚀 Nexitally
  - DOMAIN-SUFFIX,matters.news,🚀 Nexitally
+ - DOMAIN-SUFFIX,matters.town,🚀 Nexitally
  - DOMAIN-SUFFIX,mattwilcox.net,🚀 Nexitally
  - DOMAIN-SUFFIX,maturejp.com,🚀 Nexitally
  - DOMAIN-SUFFIX,maxing.jp,🚀 Nexitally
@@ -9923,6 +9936,7 @@ rules:
  - DOMAIN-SUFFIX,ypncdn.com,🚀 Nexitally
  - DOMAIN-SUFFIX,pixiv.net,🚀 Nexitally
  - DOMAIN-SUFFIX,pximg.net,🚀 Nexitally
+ - DOMAIN-SUFFIX,fanbox.cc,🚀 Nexitally
  - DOMAIN-SUFFIX,amplitude.com,🚀 Nexitally
  - DOMAIN-SUFFIX,firebaseio.com,🚀 Nexitally
  - DOMAIN-SUFFIX,hockeyapp.net,🚀 Nexitally
@@ -10019,6 +10033,7 @@ rules:
  - DOMAIN-SUFFIX,zhenguanyu.biz,🎯 全球直连
  - DOMAIN-SUFFIX,zhenguanyu.com,🎯 全球直连
  - DOMAIN-SUFFIX,snapdrop.net,🎯 全球直连
+ - DOMAIN-SUFFIX,tebex.io,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
  - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
  - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
@@ -10069,6 +10084,7 @@ rules:
  - DOMAIN-SUFFIX,aliyuncdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliyuncs.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliyundrive.com,🎯 全球直连
+ - DOMAIN-SUFFIX,aliyundrive.net,🎯 全球直连
  - DOMAIN-SUFFIX,amap.com,🎯 全球直连
  - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
  - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
@@ -10395,6 +10411,7 @@ rules:
  - DOMAIN-SUFFIX,biqudu.com,🎯 全球直连
  - DOMAIN-SUFFIX,biquge.com,🎯 全球直连
  - DOMAIN-SUFFIX,bitauto.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bosszhipin.com,🎯 全球直连
  - DOMAIN-SUFFIX,c-ctrip.com,🎯 全球直连
  - DOMAIN-SUFFIX,camera360.com,🎯 全球直连
  - DOMAIN-SUFFIX,cdnmama.com,🎯 全球直连
@@ -10603,6 +10620,7 @@ rules:
  - DOMAIN-SUFFIX,zhaopin.com,🎯 全球直连
  - DOMAIN-SUFFIX,zhihu.com,🎯 全球直连
  - DOMAIN-SUFFIX,zhimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zhipin.com,🎯 全球直连
  - DOMAIN-SUFFIX,zhongsou.com,🎯 全球直连
  - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
  - IP-CIDR,8.128.0.0/10,🎯 全球直连,no-resolve
