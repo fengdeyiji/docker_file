@@ -1,7 +1,9 @@
 FROM ubuntu:22.04
 # 拷贝llvm（apt源安装的版本不够新，对cpp20的支持有限）
 ADD llvm.tar.xz /usr/local/llvm
-RUN mv /usr/local/llvm/*/* /usr/local/llvm/
+RUN mv /usr/local/llvm/*/* /usr/local/llvm/ \
+    && mkdir /root/.vscode-server
+ADD vscode/extensions.tar.xz /root/.vscode-server/
 # 更新软件包列表并安装所需的软件包
 RUN mv /etc/apt/sources.list /etc/apt/sources.list.backup \
     && sed 's/archive.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/g' /etc/apt/sources.list.backup > /etc/apt/sources.list \

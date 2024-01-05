@@ -76,6 +76,7 @@ proxies:
   - {name: 斐济丨3x FJ, server: console.pitv.win, port: 13224, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇵🇭 菲律宾 01丨2x PH, server: app-zhihu.zhihu.win, port: 12406, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇵🇭 菲律宾 02丨2x PH, server: app-zhihu.zhihu.win, port: 12020, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
+  - {name: 🇵🇭 菲律宾 03丨2x PH, server: app-zhihu.zhihu.win, port: 13124, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇮🇩 印尼-棉兰丨1x ID, server: app-zhihu.zhihu.win, port: 12300, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇮🇩 印尼-雅加达丨1x ID, server: app-zhihu.zhihu.win, port: 12301, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇮🇳 印度 01丨1x IN, server: app-zhihu.zhihu.win, port: 12302, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
@@ -122,7 +123,6 @@ proxies:
   - {name: 🇦🇺 澳大利亚-墨尔本丨2x AU, server: app-zhihu.zhihu.win, port: 12401, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇦🇺 澳大利亚-布里斯班丨2x AU, server: app-zhihu.zhihu.win, port: 12325, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇦🇺 澳大利亚-阿德莱德丨2x AU, server: app-zhihu.zhihu.win, port: 20046, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
-  - {name: 🇦🇺 澳大利亚家宽丨20x AU, server: app-zhihu.zhihu.win, port: 20049, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇳🇿 新西兰丨2x NZ, server: app-zhihu.zhihu.win, port: 12326, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇳🇿 新西兰家宽丨3x NZ, server: app-zhihu.zhihu.win, port: 20023, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
   - {name: 🇫🇷 法国 01丨1x FR, server: 58tongcheng.51ideal.cyou, port: 12621, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 959933e8b99e.microsoft.com}, udp: true}
@@ -359,6 +359,7 @@ proxy-groups:
       - 斐济丨3x FJ
       - 🇵🇭 菲律宾 01丨2x PH
       - 🇵🇭 菲律宾 02丨2x PH
+      - 🇵🇭 菲律宾 03丨2x PH
       - 🇮🇩 印尼-棉兰丨1x ID
       - 🇮🇩 印尼-雅加达丨1x ID
       - 🇮🇳 印度 01丨1x IN
@@ -405,7 +406,6 @@ proxy-groups:
       - 🇦🇺 澳大利亚-墨尔本丨2x AU
       - 🇦🇺 澳大利亚-布里斯班丨2x AU
       - 🇦🇺 澳大利亚-阿德莱德丨2x AU
-      - 🇦🇺 澳大利亚家宽丨20x AU
       - 🇳🇿 新西兰丨2x NZ
       - 🇳🇿 新西兰家宽丨3x NZ
       - 🇫🇷 法国 01丨1x FR
@@ -631,6 +631,7 @@ proxy-groups:
       - 斐济丨3x FJ
       - 🇵🇭 菲律宾 01丨2x PH
       - 🇵🇭 菲律宾 02丨2x PH
+      - 🇵🇭 菲律宾 03丨2x PH
       - 🇮🇩 印尼-棉兰丨1x ID
       - 🇮🇩 印尼-雅加达丨1x ID
       - 🇮🇳 印度 01丨1x IN
@@ -677,7 +678,6 @@ proxy-groups:
       - 🇦🇺 澳大利亚-墨尔本丨2x AU
       - 🇦🇺 澳大利亚-布里斯班丨2x AU
       - 🇦🇺 澳大利亚-阿德莱德丨2x AU
-      - 🇦🇺 澳大利亚家宽丨20x AU
       - 🇳🇿 新西兰丨2x NZ
       - 🇳🇿 新西兰家宽丨3x NZ
       - 🇫🇷 法国 01丨1x FR
@@ -1157,6 +1157,7 @@ proxy-groups:
       - 斐济丨3x FJ
       - 🇵🇭 菲律宾 01丨2x PH
       - 🇵🇭 菲律宾 02丨2x PH
+      - 🇵🇭 菲律宾 03丨2x PH
       - 🇮🇩 印尼-棉兰丨1x ID
       - 🇮🇩 印尼-雅加达丨1x ID
       - 🇮🇳 印度 01丨1x IN
@@ -1202,7 +1203,6 @@ proxy-groups:
       - 🇦🇺 澳大利亚-墨尔本丨2x AU
       - 🇦🇺 澳大利亚-布里斯班丨2x AU
       - 🇦🇺 澳大利亚-阿德莱德丨2x AU
-      - 🇦🇺 澳大利亚家宽丨20x AU
       - 🇳🇿 新西兰丨2x NZ
       - 🇳🇿 新西兰家宽丨3x NZ
       - 🇫🇷 法国 01丨1x FR
