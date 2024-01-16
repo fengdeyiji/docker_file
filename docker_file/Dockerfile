@@ -29,8 +29,6 @@ RUN chmod +x /root/clash/clash \
     && chmod +x /root/clash/update_subscription.sh \
     && mv /root/clash/clash /usr/local/bin/clash \
     && mv /root/clash/basic_profile /etc/zsh/ \
-    && echo "source /etc/zsh/basic_profile" >> /etc/zsh/zshrc \
-    && mv /root/clash/update_subscription.sh /etc/cron.daily/ \
     && mv /root/clash/ /etc/
 # RUN mv /etc/apt/sources.list.backup /etc/apt/sources.list
 # 将默认shell更改为zsh

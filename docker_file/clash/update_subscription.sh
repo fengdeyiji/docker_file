@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e  # 开启错误终止功能
 # 订阅链接地址
-SUBSCRIBE="https://api.nexconvert.com/sub?target=clash&url=https%3A%2F%2Fsupport.tagsssubscribe.com%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Dd9ccb83fdb3f19f8548db78e7a0161ef&insert=false&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true"
+SUBSCRIBE="https://sub-api.ohmy.cat/sub?target=clash&url=https%3A%2F%2Fsub.qiduo.eu.org%2Flink%2FStMlwl3CAPFInsmZ%3Fmu%3D1%7Chttps%3A%2F%2Fapi.qiduo.eu.org%2Flink%2FStMlwl3CAPFInsmZ%3Fsub%3D3&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_NoAuto.ini&emoji=true&list=false&udp=true&tfo=false&expand=true&scv=false&fdn=false&sort=false&clash.doh=true&new_name=true"
 if [ -z "${SUBSCRIBE}" ]; then
   echo "Subscription address cannot be empty"
   exit 1

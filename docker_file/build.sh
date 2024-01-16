@@ -1,11 +1,11 @@
 set -e  # 开启错误终止功能
 for arg in "$@"; do
   if [ "$arg" = "prepare" ]; then
-    sh ./clash/update_subscription.sh "boot"
+    # sh ./clash/update_subscription.sh "boot"
     cat ~/.ssh/id_rsa.pub > authorized_keys #拷贝本物理机的公钥
     if [ ! -f "llvm.tar.xz" ]; then
       echo "llvm文件不存在, 开始下载"
-      wget -O llvm.tar.xz https://mirrors.tuna.tsinghua.edu.cn/github-release/llvm/llvm-project/LLVM%2017.0.6/clang%2Bllvm-17.0.6-x86_64-linux-gnu-ubuntu-22.04.tar.xz
+      wget -O llvm.tar.xz https://mirrors.tuna.tsinghua.edu.cn/github-release/llvm/llvm-project/LatestRelease/clang%2Bllvm-17.0.6-aarch64-linux-gnu.tar.xz
     fi
   fi
   if [ "$arg" = "build" ]; then
