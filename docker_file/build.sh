@@ -14,7 +14,7 @@ for arg in "$@"; do
     docker build -t dev:v1 . #创建新的镜像
   fi
   if [ "$arg" = "run" ]; then
-    docker run -d --mount type=bind,source=/Users/txw/Desktop/src,target=/root/project -p 1024:22 dev:v1
+    docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -d --mount type=bind,source=/Users/txw/Desktop/src,target=/root/project -p 1024:22 dev:v1
     grep -v "\[127.0.0.1\]:1024" "$HOME/.ssh/known_hosts" > "$HOME/.ssh/known_hosts.tmp"
     mv "$HOME/.ssh/known_hosts.tmp" "$HOME/.ssh/known_hosts"
   fi

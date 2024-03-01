@@ -15,12 +15,24 @@ service ssh stop
 # echo "source /etc/zsh/basic_profile" >> /etc/zsh/zshrc #登录时默认使用代理
 # sleep 2 # 等待代理启动完成
 # 安装oh-my-zsh和p10k（使用gitee版本）
-sh -c "$(curl -fsSL https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh)"
+wget https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh
+sed -i 's/REPO=\${REPO:\-ohmyzsh\/ohmyzsh}/REPO=\${REPO:\-mirrors\/ohmyzsh}/g' ./install.sh
+sed -i 's/REMOTE=\${REMOTE:\-https:\/\/github.com\/\${REPO}.git}/REMOTE=\${REMOTE:\-https:\/\/gitee.com\/\${REPO}.git}/g' ./install.sh
+sh ./install.sh
+cd ~/.oh-my-zsh
+git remote set-url origin https://gitee.com/mirrors/oh-my-zsh.git
+git pull
+# 命令行的自动补全
+git clone https://gitee.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+# p10k美化终端显示效果
 git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git /root/.oh-my-zsh/custom/themes/powerlevel10k
 sed -i 's/ZSH_THEME.*/ZSH_THEME="powerlevel10k\/powerlevel10k"/g' ~/.zshrc
 # 移动配置文件
 mv /root/terminal/.* /root/
 rm -rf /root/terminal/
-#重启ssh服务，加载公钥
+# 安装xmake
+curl -fsSL https://xmake.io/shget.text | bash
+# 重启ssh服务，加载公钥
 service ssh start
+
 tail -f /dev/null #防止容器退出
