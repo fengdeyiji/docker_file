@@ -19,18 +19,27 @@ RUN sed -i 's/.*Port.*/Port 22/; s/.*PermitRootLogin.*/PermitRootLogin Yes/; s/.
 COPY authorized_keys /root/.ssh/
 # 拷贝clash客户端以及配置文件
 COPY clash /root/clash
+# dtrx是一个通用解压工具
+RUN apt -y install dtrx
 # 拷贝llvm（apt源安装的版本不够新，对cpp20的支持有限）
-ADD llvm.tar.xz /usr/local/llvm
-RUN mv /usr/local/llvm/*/* /usr/local/llvm/ \
-    && mkdir /root/.vscode-server
+COPY clang*.tar.xz /usr/local/llvm/
+RUN cd /usr/local/llvm/ \
+    && dtrx -n clang*.tar.xz \
+    && rm -rf clang*.tar.xz \
+    && mv ./clang*/* ./
 # 拷贝vscode的远程插件
-ADD vscode/extensions.tar.xz /root/.vscode-server/
-# 拷贝boost
-ADD boost.tar.gz /usr/local/
-# 安装boost
-RUN cd $(echo /usr/local/boost*) && ./bootstrap.sh && ./b2 install
-# 拷贝asio
-ADD asio*tar.gz /usr/local/
+COPY vscode/extensions.tar.xz /root/.vscode-server/
+RUN cd /root/.vscode-server/ \
+    && dtrx -n extensions.tar.xz \
+    && rm -rf extensions.tar.xz
+# 拷贝安装boost
+COPY boost*.tar.gz /usr/local/
+RUN cd /usr/local/ \
+    && dtrx -n boost*.tar.gz \
+    && rm -rf boost*.tar.gz
+RUN cd $(echo /usr/local/boost*) \
+    && ./bootstrap.sh \
+    && ./b2 boost.stacktrace.from_exception=off install
 # 安装xmake
 RUN curl -fsSL https://xmake.io/shget.text | bash
 # 安装clash
