@@ -30,8 +30,6 @@ sed -i 's/ZSH_THEME.*/ZSH_THEME="powerlevel10k\/powerlevel10k"/g' ~/.zshrc
 # 移动配置文件
 mv /root/terminal/.* /root/
 rm -rf /root/terminal/
-# 安装xmake
-curl -fsSL https://xmake.io/shget.text | bash
 # 重启ssh服务，加载公钥
 service ssh start
 

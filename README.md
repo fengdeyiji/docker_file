@@ -29,6 +29,10 @@ sudo python3 ./build.py --build
 ```shell
 python3 ./build.py --run
 ```
+docker运行启动后将会执行start.sh脚本，内容包括：
+1. 安装oh-my-zsh和p10k（使用国内gitee镜像源）
+2. 移动覆盖配置文件.p10k.zsh, .tmux.conf, .zshrc到root用户根目录
+3. p10k和tmux的配置风格依自己喜好调整，zshrc中为PATH路径增加了llvm路径以及xmake路径，链接路径增加boost库路径
 # 登录环境
 ```shell
 ssh root@127.0.0.1 -p 1024
