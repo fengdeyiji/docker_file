@@ -1,3 +1,15 @@
+# MAC OS
+因为版权问题，个人开发者的docker DeskTop在公司层面被禁用，使用colima代替。  
+```shell
+brew install colima
+```
+启动colima的时候，可以使用启动参数:
+```shell
+colima start --cpu 6 --memory 15 --edit
+#docker:
+#   registry-mirrors:
+#     -http://yum.tbsite.net/mirrors/
+```
 
 # 准备工作
 1. 拷贝本机公钥
