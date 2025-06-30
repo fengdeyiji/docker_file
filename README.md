@@ -6,9 +6,10 @@ brew install colima
 启动colima的时候，可以使用启动参数:
 ```shell
 colima start --cpu 6 --memory 15 --edit
-#docker:
-#   registry-mirrors:
-#     -http://yum.tbsite.net/mirrors/
+# 可以从这里查看当前还可以工作的国内镜像源地址：https://github.com/dongyubin/DockerHub (在中国干程序员真心累啊...)
+docker:
+  registry-mirrors:
+    - "https://docker-0.unsee.tech"
 ```
 
 # 准备工作

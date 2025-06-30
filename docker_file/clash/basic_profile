@@ -1,14 +1,36 @@
 #!/bin/bash
+export IP="host.docker.internal"
+# export IP="127.0.0.1"
+# 添加 HTTP 代理端口（Clash 默认 7890）
+export http_proxy="http://$IP:8004"
+export https_proxy="http://$IP:8004"
+export all_proxy="socks5://$IP:8005"
+export no_proxy="localhost,127.0.0.1,*.internal,192.168.0.0/16"
+# 大写版本
+export HTTP_PROXY="$http_proxy"
+export HTTPS_PROXY="$https_proxy"
+export ALL_PROXY="$all_proxy"
+export NO_PROXY="$no_proxy"
 
-export NO_PROXY="localhost,127.0.0.1"
-export ALL_PROXY="socks5://127.0.0.1:1080"
-export HTTP_PROXY="http://127.0.0.1:8080"
-export HTTPS_PROXY="http://127.0.0.1:8080"
+# 使用三种方式测试代理
+# 方式1：利用http_proxy环境变量（测试HTTP）
+curl -I -m 3 "http://google.com" > /dev/null 2>&1
+http_test=$?
 
-curl google.com -m 3 > /dev/null 2>&1
+# 方式2：利用all_proxy环境变量（测试HTTPS）
+curl -I -m 3 "https://google.com" > /dev/null 2>&1
+https_test=$?
 
-if [ $? = 0 ]; then
-  echo -e "\033[32mProxy Working Fine. Happy Coding.\033[0m"
+# 方式3：显式指定SOCKS代理（验证代理端口）
+curl -m 3 -I "https://google.com" --proxy "socks5h://$IP:8005" > /dev/null 2>&1
+socks_test=$?
+
+# 组合测试结果
+if [ $http_test = 0 ] && [ $https_test = 0 ] && [ $socks_test = 0 ]; then
+  echo -e "\033[32mProxy Working. All tests passed.\033[0m"
 else
-  echo -e "\033[31mProxy May Have Failed. Please Check.\033[0m"
+  echo -e "\033[31mProxy Failure Report:\033[0m"
+  [ $http_test != 0 ] && echo "- HTTP proxy test failed"
+  [ $https_test != 0 ] && echo "- HTTPS proxy test failed"
+  [ $socks_test != 0 ] && echo "- Explicit SOCKS test failed"
 fi
