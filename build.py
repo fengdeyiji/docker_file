@@ -41,6 +41,8 @@ if args.build:
   DO('''docker image ls | grep 'dev' | awk '{print $1":"$2}' | xargs -r docker image rm''')  # 删除已有的同名镜像
   DO("docker build -t dev:v2 -f Dockerfile .")  # 创建新的镜像
 if args.run:
-  DO("docker run -d --mount type=bind,source=$HOME/src,target=/home/admin/project -p 1024:22 dev:v2")
+  # 如果有正在运行的docker，结束掉
+  DO("docker container ls -a | grep 'dev' | awk '{print $1}' | xargs -r docker container stop | xargs -r docker rm")
+  DO("docker run --privileged -d --mount type=bind,source=$HOME/src,target=/home/admin/project -p 1024:22 dev:v2")
   DO('''grep -v "\[127.0.0.1\]:1024" "$HOME/.ssh/known_hosts" > "$HOME/.ssh/known_hosts.tmp"''')
   DO('''mv "$HOME/.ssh/known_hosts.tmp" "$HOME/.ssh/known_hosts"''')

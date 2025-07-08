@@ -1,6 +1,11 @@
 #!/bin/bash
-export IP="host.docker.internal"
-# export IP="127.0.0.1"
+if ping -c 1 -W 1 host.docker.internal &> /dev/null; then
+  IP="host.docker.internal"
+  echo "使用 host.docker.internal"
+else
+  IP="127.0.0.1"
+  echo "host.docker.internal 无效，回退到 127.0.0.1"
+fi
 # 添加 HTTP 代理端口（Clash 默认 7890）
 export http_proxy="http://$IP:8004"
 export https_proxy="http://$IP:8004"

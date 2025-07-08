@@ -11,7 +11,7 @@ RUN cp /etc/apt/sources.list /etc/apt/sources.list.backup && \
     sed -i 's@http://security.ubuntu.com/@http://mirrors.ustc.edu.cn/@g' /etc/apt/sources.list && \
     apt update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
-    openssh-server vim gcc g++ build-essential cmake ca-certificates git wget zsh unzip coreutils fonts-powerline tmux curl iputils-ping gdb dtrx sudo && \
+    openssh-server vim gcc g++ build-essential cmake ca-certificates git wget zsh unzip coreutils fonts-powerline tmux curl iputils-ping gdb dtrx sudo lsof tree clangd && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 # 创建 admin 用户并设置密码
@@ -26,11 +26,10 @@ RUN sed -i 's/#Port 22/Port 22/' /etc/ssh/sshd_config && \
     sed -i 's|#AuthorizedKeysFile.*|AuthorizedKeysFile .ssh/authorized_keys|' /etc/ssh/sshd_config && \
     mkdir /run/sshd
 # 设置权限
-# RUN chown -R admin:admin /home/admin
 USER admin
 WORKDIR /home/admin
 # 预先创建目录并设置权限
-RUN mkdir -p .local/LLVM .local/boost .ssh
+RUN mkdir -p .local/boost .ssh
 
 # 安装 oh-my-zsh 和 p10k 主题 (使用清华源加速)
 RUN wget https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh && \
@@ -52,25 +51,21 @@ RUN chown -R admin:admin .
 USER admin
 RUN chmod 700 /home/admin/.ssh && \
     chmod 600 /home/admin/.ssh/authorized_keys
-# 添加环境变量
-ENV TERM=xterm-256color
-RUN echo 'export TERM=xterm-256color' >> ~/.zshrc
 # 安装xmake
-RUN bash <(curl -fsSL https://cdn.jsdelivr.net/gh/xmake-io/xmake@master/scripts/get.sh)
+RUN curl -fsSL https://xmake.io/shget.text | bash
 # 切换回root用户进行文件复制
 USER root
-COPY LLVM*.tar* .local/LLVM/
 COPY boost*.tar* .local/boost/
+COPY clash/basic_profile .proxyrc
 RUN chown -R admin:admin /home/admin/.local
 USER admin
-RUN cd .local/LLVM/ \
-    && dtrx -n LLVM*.tar* \
-    && rm -rf LLVM*.tar* \
-    && mv ./LLVM*/* ./
 RUN cd .local/boost/ \
     && dtrx -n boost*.tar* \
     && rm -rf boost*.tar* \
     && mv ./boost*/* ./
+RUN cd .local/boost/ \
+    && ./bootstrap.sh \
+    && ./b2 install -j6 --prefix=/home/admin/.local/ link=static runtime-link=static debug release
 
 # 这仅仅是一个声明
 EXPOSE 22
